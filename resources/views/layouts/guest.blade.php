@@ -25,7 +25,7 @@
   <link rel="icon" type="image/png" href="../assets/img/favicon.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
-    Anbg
+langues
   </title>
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
   <!--     Fonts and icons     -->
@@ -95,34 +95,8 @@
         </div>
       </div>
     </div>
-    <footer class="footer">
-      <div class=" container ">
-        <nav>
-          <ul>
-            <li>
-
-            </li>
-            <li>
-
-            </li>
-            <li>
-              <a href="http://blog.creative-tim.com">
-                Blog
-              </a>
-            </li>
-          </ul>
-        </nav>
-        <div class="copyright" id="copyright">
-          &copy;
-          <script>
-            document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
-          </script>, Designed by
-          <a href="https://www.invisionapp.com" target="_blank">Invision</a>. Coded by
-          <a href="https://www.creative-tim.com" target="_blank">Christopher Entreprise</a>.
-        </div>
-      </div>
-    </footer>
-  </div>
+    
+ 
   <!--   Core JS Files   -->
   <script src="../assets/js/core/jquery.min.js" type="text/javascript"></script>
   <script src="../assets/js/core/popper.min.js" type="text/javascript"></script>

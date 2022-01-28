@@ -42,12 +42,12 @@
 
             <div class="flex items-center justify-end mt-4">
                 @if (Route::has('password.request'))
-                    <a class="nav-link" href="{{ route('password.request') }}">
+                    <a class="nav-link text-success" href="{{ route('password.request') }}">
                         {{ __('Forgot your password?') }}
                     </a>
                 @endif
 
-                <x-button class="btn btn-primary btn-round btn-lg btn-block">
+                <x-button class="btn btn-success btn-round btn-lg btn-block">
                     {{ __('Log in') }}
                 </x-button>
             </div>

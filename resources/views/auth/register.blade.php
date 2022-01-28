@@ -43,11 +43,11 @@
             </div>
 
             <div class="flex items-center justify-end mt-4">
-                <a class="nav-link" href="{{ route('login') }}">
+                <a class="nav-link text-success" href="{{ route('login') }}">
                     {{ __('Already registered?') }}
                 </a>
 
-                <x-button class="btn btn-primary btn-round btn-lg btn-block">
+                <x-button class="btn btn-success btn-round btn-lg btn-block">
                     {{ __('Register') }}
                 </x-button>
             </div>

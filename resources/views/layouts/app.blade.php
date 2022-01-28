@@ -24,7 +24,7 @@
   <link rel="icon" type="image/png" href="../assets/img/favicon.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
-   anbg
+ Langues
   </title>
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
   <!--     Fonts and icons     -->
@@ -39,7 +39,7 @@
 
 <body class="profile-page sidebar-collapse">
   <!-- Navbar -->
-   <nav class="navbar navbar-expand-lg bg-primary fixed-top navbar-transparent " color-on-scroll="400">
+   <nav class="navbar navbar-expand-lg bg-success fixed-top navbar-transparent " color-on-scroll="400">
       <div class="container">
         <div class="dropdown button-dropdown">
           <a href="#pablo" class="dropdown-toggle" id="navbarDropdown" data-toggle="dropdown">
@@ -48,14 +48,14 @@
             <span class="button-bar"></span>
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-header">Dropdown header</a>
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
+            <a class="dropdown-header">Formation aux Langues</a>
+            <a class="dropdown-item" href="#">Fang</a>
+            <a class="dropdown-item" href="#">Nzebie</a>
+            <a class="dropdown-item" href="#">Benga</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Separated link</a>
+            <a class="dropdown-item" href="#">Sekianie</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">One more separated link</a>
+            <a class="dropdown-item" href="#">Ndoumou</a>
           </div>
         </div>
         <div class="navbar-translate">
