@@ -11,4 +11,9 @@ class HomeController extends Controller
     {
         return view('formations.formationlibre');
     }
+
+    public function suivreformationlibre()
+    {
+        return view('formations.suivreformationlibre');
+    }
 }

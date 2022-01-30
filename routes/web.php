@@ -24,3 +24,4 @@ Route::get('/dashboard', function () {
 
 require __DIR__.'/auth.php';
 Route::get('/formationlibre', [HomeController::class, 'formationlibre'])->name('formationlibre');
+Route::get('/suivreformationlibre', [HomeController::class, 'suivreformationlibre'])->name('suivreformationlibre');

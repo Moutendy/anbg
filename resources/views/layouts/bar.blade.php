@@ -18,14 +18,22 @@
   <link href="../assets/css/now-ui-kit.css?v=1.3.0" rel="stylesheet" />
 
   <link href="../assets/demo/demo.css" rel="stylesheet" />
+  <style>
+body {
+  background-image: url("../../../assets/img/bg4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+  </style>
 </head>
 
        <body class="landing-page sidebar-collapse">
          <!-- Navbar -->
          <nav class="navbar navbar-expand-lg bg-success fixed-top navbar-transparent " color-on-scroll="400">
-           <div class="container"  style="background-image: url('../assets/img/bg6.jpg');">
+           <div class="container">
      
-           <div class="navbar-translate">
+           <div class="navbar-translate  ">
 @yield('bar')
 <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
   <span class="navbar-toggler-bar top-bar"></span>
@@ -39,7 +47,7 @@
 <ul class="navbar-nav">
                <li class="nav-item">
                 
-                   <a class="nav-link"  href="{{ url('/formationlibre') }}">Formations</a>
+                   <a class="nav-link "  href="{{ url('/formationlibre') }}"><b>Formations</b></a>
                   
                  </li>
                 @if (Route::has('login'))
@@ -53,8 +61,8 @@
                  </li>
                  <li class="nav-item">
                    @if (Route::has('welcome'))
-                   <a class="nav-link" rel="tooltip" title="Register"  href="/">
-Welcome
+                   <a class="nav-link" rel="tooltip" title="accueil"  href="/">
+Accueil
                    </a>
                    @endif
                                         @endauth
@@ -65,7 +73,7 @@ Welcome
 
 </nav>
 
-@extends('layouts.body')
+
 
 
 <script src="../assets/js/core/jquery.min.js" type="text/javascript"></script>

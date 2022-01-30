@@ -42,6 +42,17 @@ langues
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg bg-primary fixed-top navbar-transparent " color-on-scroll="400">
     <div class="container">
+
+
+    
+    <div class="navbar-translate  ">
+
+<button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-bar top-bar"></span>
+  <span class="navbar-toggler-bar middle-bar"></span>
+  <span class="navbar-toggler-bar bottom-bar"></span>
+</button>
+</div>
       <div class="dropdown button-dropdown">
 
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
