@@ -90,8 +90,11 @@
                        <h4 class="title">Romina Hadid</h4>
                        <p class="category text-success">Model</p>
                        <p class="description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some
-
+              
                      </div>
+                     <a href="#button" class="btn btn-success btn-round btn-lg btn-icon" rel="tooltip" title="contacter nous sur whatsapp">
+            <i class="fab fa-whatsapp"></i>
+          </a>
                    </div>
                    <div class="col-md-4">
                      <div class="team-player">
@@ -100,7 +103,9 @@
                        <p class="category text-success">Designer</p>
                        <p class="description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some
                          <a href="#">links</a> for people to be able to follow them outside the site.</p>
-
+                         <a href="#button" class="btn btn-success btn-round btn-lg btn-icon" rel="tooltip" title="contacter nous sur whatsapp">
+            <i class="fab fa-whatsapp"></i>
+          </a>
                      </div>
                    </div>
                    <div class="col-md-4">
@@ -110,7 +115,9 @@
                        <p class="category text-success">Fashion</p>
                        <p class="description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some
                          <a href="#">links</a> for people to be able to follow them outside the site.</p>
-
+                         <a href="#button" class="btn btn-success btn-round btn-lg btn-icon" rel="tooltip" title="contacter nous sur whatsapp">
+            <i class="fab fa-whatsapp"></i>
+          </a>
                      </div>
                    </div>
                  </div>
@@ -145,7 +152,7 @@
               <textarea class="form-control" name="name" rows="4" cols="80" placeholder="Type a message..."></textarea>
             </div>
             <div class="send-button">
-              <a href="#pablo" class="btn btn-success btn-round btn-block btn-lg">Valider</a>
+              <a href="#pablo" class="btn btn-success btn-round btn-block btn-lg">Valide</a>
             </div>
           </div>
         </div>

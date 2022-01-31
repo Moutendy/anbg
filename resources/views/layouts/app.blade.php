@@ -35,6 +35,12 @@
   <link href="../assets/css/now-ui-kit.css?v=1.3.0" rel="stylesheet" />
 
   <link href="../assets/demo/demo.css" rel="stylesheet" />
+  <style>
+audio{
+    width: 180px;
+}
+
+</style>
 </head>
 
 <body class="profile-page sidebar-collapse">
@@ -76,13 +82,14 @@
                {{ __('Log Out') }}</a></form>
 
           </li>
-          <li class="nav-item">
-            <a class="nav-link" :href="route('dashboard')" :active="request()->routeIs('dashboard')"> {{ __('Dashboard') }}</a>
-          </li>
+         
  <li class="nav-item">
             <a class="nav-link" href="/"> {{ __('Welcome') }}</a>
           </li>
-
+          </li>
+ <li class="nav-item">
+            <a class="nav-link" href="/"> {{ __('Formation') }}</a>
+          </li>
 
         </ul>
       </div>
@@ -118,29 +125,32 @@
     <div class="section">
       <div class="container">
         <div class="button-container">
-          <a href="#button" class="btn btn-primary btn-round btn-lg">Follow</a>
+          <a href="#button" class="btn btn-success btn-round btn-lg">Follow</a>
           <a href="#button" class="btn btn-default btn-round btn-lg btn-icon" rel="tooltip" title="Follow me on Twitter">
             <i class="fab fa-twitter"></i>
           </a>
           <a href="#button" class="btn btn-default btn-round btn-lg btn-icon" rel="tooltip" title="Follow me on Instagram">
             <i class="fab fa-instagram"></i>
           </a>
+          <a href="#button" class="btn btn-default btn-round btn-lg btn-icon" rel="tooltip" title="Follow me on Instagram">
+            <i class="fab fa-whatsapp"></i>
+          </a>
         </div>
         <h3 class="title">About me</h3>
         <h5 class="description">An artist of considerable range, Ryan — the name taken by Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs and records all of his own music, giving it a warm, intimate feel with a solid groove structure. An artist of considerable range.</h5>
         <div class="row">
           <div class="col-md-6 ml-auto mr-auto">
-            <h4 class="title text-center">My Portfolio</h4>
+            <h4 class="title text-center">Formations</h4>
             <div class="nav-align-center">
-              <ul class="nav nav-pills nav-pills-primary nav-pills-just-icons" role="tablist">
+              <ul class="nav nav-pills nav-pills-success nav-pills-just-icons" role="tablist">
                 <li class="nav-item">
                   <a class="nav-link" data-toggle="tab" href="#profile" role="tablist">
-                    <i class="now-ui-icons design_image"></i>
+                    <i class="now-ui-icons ui-2_settings-90"></i>
                   </a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link active" data-toggle="tab" href="#home" role="tablist">
-                    <i class="now-ui-icons location_world"></i>
+                    <i class="now-ui-icons sport_trophy"></i>
                   </a>
                 </li>
                 <li class="nav-item">
@@ -157,12 +167,19 @@
               <div class="col-md-10 ml-auto mr-auto">
                 <div class="row collections">
                   <div class="col-md-6">
-                    <img src="../assets/img/bg1.jpg" alt="" class="img-raised">
-                    <img src="../assets/img/bg3.jpg" alt="" class="img-raised">
+                  <a class="btn btn-success" data-toggle="modal" data-target="#myModal">
+                  <img src="../assets/img/bg1.jpg" alt="" class="img-raised">
+</a>
+              <a class="btn btn-success" data-toggle="modal" data-target="#myModal">
+              <img src="../assets/img/bg3.jpg" alt="" class="img-raised">
+</a>
+               
                   </div>
                   <div class="col-md-6">
-                    <img src="../assets/img/bg8.jpg" alt="" class="img-raised">
-                    <img src="../assets/img/bg7.jpg" alt="" class="img-raised">
+                  <a class="btn btn-success" data-toggle="modal" data-target="#myModal">
+                    <img src="../assets/img/bg8.jpg" alt="" class="img-raised"></a>
+                    <a class="btn btn-success" data-toggle="modal" data-target="#myModal"> 
+                      <img src="../assets/img/bg7.jpg" alt="" class="img-raised"></a>
                   </div>
                 </div>
               </div>
@@ -171,12 +188,13 @@
               <div class="col-md-10 ml-auto mr-auto">
                 <div class="row collections">
                   <div class="col-md-6">
-                    <img src="../assets/img/bg6.jpg" class="img-raised">
-                    <img src="../assets/img/bg11.jpg" alt="" class="img-raised">
+                  <a class="btn btn-success" data-toggle="modal" data-target="#myModal"><img src="../assets/img/bg6.jpg" class="img-raised">
+                  </a> 
+                  <a class="btn btn-success" data-toggle="modal" data-target="#myModal"><img src="../assets/img/bg11.jpg" alt="" class="img-raised"></a>
                   </div>
                   <div class="col-md-6">
-                    <img src="../assets/img/bg7.jpg" alt="" class="img-raised">
-                    <img src="../assets/img/bg8.jpg" alt="" class="img-raised">
+                  <a class="btn btn-success" data-toggle="modal" data-target="#myModal"><img src="../assets/img/bg7.jpg" alt="" class="img-raised"></a>
+                  <a class="btn btn-success" data-toggle="modal" data-target="#myModal"><img src="../assets/img/bg8.jpg" alt="" class="img-raised"></a>
                   </div>
                 </div>
               </div>
@@ -185,12 +203,12 @@
               <div class="col-md-10 ml-auto mr-auto">
                 <div class="row collections">
                   <div class="col-md-6">
-                    <img src="../assets/img/bg3.jpg" alt="" class="img-raised">
-                    <img src="../assets/img/bg8.jpg" alt="" class="img-raised">
+                  <a class="btn btn-success" data-toggle="modal" data-target="#myModal"> <img src="../assets/img/bg3.jpg" alt="" class="img-raised"></a>
+                  <a class="btn btn-success" data-toggle="modal" data-target="#myModal"><img src="../assets/img/bg8.jpg" alt="" class="img-raised"></a>
                   </div>
                   <div class="col-md-6">
-                    <img src="../assets/img/bg7.jpg" alt="" class="img-raised">
-                    <img src="../assets/img/bg6.jpg" class="img-raised">
+                  <a class="btn btn-success" data-toggle="modal" data-target="#myModal"><img src="../assets/img/bg7.jpg" alt="" class="img-raised"></a>
+                  <a class="btn btn-success" data-toggle="modal" data-target="#myModal"><img src="../assets/img/bg6.jpg" class="img-raised"></a>
                   </div>
                 </div>
               </div>
@@ -199,6 +217,51 @@
         </div>
       </div>
     </div>
+        <!-- Sart Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+        
+          
+         
+          <div class="modal-body">
+          <video width="400" controls class="card">
+  <source src="video/1.mp4" type="video/mp4">
+  <source src="video/1.mp4" type="video/ogg">
+
+</video>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#myModal1">Audio</button>
+            <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  End Modal -->
+        <!-- Mini Modal -->
+        <div class="modal fade modal-mini modal-success" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header justify-content-center">
+            <div class="modal-profile">
+              <i class="now-ui-icons users_circle-08"></i>
+            </div>
+          </div>
+          <div class="modal-body">
+          <audio controls >
+  <source src="mp3/1.mp3" type="audio/ogg">
+  <source src="mp3/1.mp3" type="audio/mpeg">
+</audio>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-link btn-neutral">Back</button>
+            <button type="button" class="btn btn-link btn-neutral" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  End Modal -->
     <footer class="footer footer-default">
       <div class=" container ">
         <nav>
