@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\AdminController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,3 +26,5 @@ Route::get('/dashboard', function () {
 require __DIR__.'/auth.php';
 Route::get('/formationlibre', [HomeController::class, 'formationlibre'])->name('formationlibre');
 Route::get('/suivreformationlibre', [HomeController::class, 'suivreformationlibre'])->name('suivreformationlibre');
+Route::get('/admin', [AdminController::class, 'admin'])->name('admin');
+Route::get('/vuformation', [AdminController::class, 'vuformation'])->name('vuformation');
