@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\ActualiterController;
 
 /*
 |--------------------------------------------------------------------------
@@ -28,3 +29,4 @@ Route::get('/formationlibre', [HomeController::class, 'formationlibre'])->name('
 Route::get('/suivreformationlibre', [HomeController::class, 'suivreformationlibre'])->name('suivreformationlibre');
 Route::get('/admin', [AdminController::class, 'admin'])->name('admin');
 Route::get('/vuformation', [AdminController::class, 'vuformation'])->name('vuformation');
+Route::get('/actualite', [ActualiterController::class, 'actualite'])->name('actualite');

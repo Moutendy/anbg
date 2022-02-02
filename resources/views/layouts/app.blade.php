@@ -82,6 +82,9 @@ audio{
                {{ __('Log Out') }}</a></form>
 
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/actualite"> {{ __('Actualiter') }}</a>
+          </li>
          
  <li class="nav-item">
             <a class="nav-link" href="/"> {{ __('Welcome') }}</a>
